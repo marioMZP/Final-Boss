@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(...);
+  width: 100%;
+  height: auto;
+}
+
+.principal {
+  width: 100%;
+  height: auto;
+}
+
+.principal .principal__titulo {
+  font-size: xx-large;
+  text-align: center;
+}
+
+.principal .principal__subtitulo {
+  text-align: center;
+}
+
+.principal .principal__subtitulo a {
+  text-decoration: none;
+}
+
+.principal #carouselExampleControls {
+  width: 70%;
+  height: auto;
+  margin: 0 auto;
+}
+
+#carouselExampleSlidesOnly {
+  width: 70%;
+  height: auto;
+}
+
+.segmento h2 {
+  text-align: center;
+}
+
+.segmento p {
+  text-align: center;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background: #293241;
+  position: static;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  padding-top: 10px;
+  color: white;
+}
+
+footer p {
+  margin-left: 10px;
+}
+
+footer .iconos img {
+  width: 30px;
+  height: auto;
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.logo__img {
+  width: 50px;
+  height: auto;
+}
+
+.nav {
+  background: #293241;
+  height: 80px;
+  width: 100%;
+  color: white;
+}
+
+.nav__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 100%;
+  width: 90%;
+  margin: 0 auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav__menu {
+  display: -ms-grid;
+  display: grid;
+  grid-auto-flow: column;
+  gap: 3em;
+}
+
+.nav__item {
+  color: white;
+  font-size: medium;
+  text-decoration: none;
+  --clippy: polygon(0 0, 0 0, 0 100%, 0% 100%);
+}
+
+.nav__item:after {
+  content: "";
+  display: block;
+  background: white;
+  width: 90%;
+  margin-top: 3px;
+  height: 3px;
+  -webkit-clip-path: var(--clippy);
+          clip-path: var(--clippy);
+  -webkit-transition: -webkit-clip-path .4s;
+  transition: -webkit-clip-path .4s;
+  transition: clip-path .4s;
+  transition: clip-path .4s, -webkit-clip-path .4s;
+}
+
+.nav__item:hover {
+  --clippy: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+
+.nav__input:checked + .nav__menu {
+  background: pink;
+}
+
+.nav__label, .nav__input {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .nav__label {
+    display: block;
+    cursor: pointer;
+  }
+  .nav__menu {
+    position: fixed;
+    top: 80px;
+    bottom: 0;
+    background: pink;
+    width: 100%;
+    left: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-clip-path: circle(0 at center);
+            clip-path: circle(0 at center);
+    -webkit-transition: -webkit-clip-path 1s ease-in-out;
+    transition: -webkit-clip-path 1s ease-in-out;
+    transition: clip-path 1s ease-in-out;
+    transition: clip-path 1s ease-in-out, -webkit-clip-path 1s ease-in-out;
+    z-index: 2;
+  }
+  .nav__input:checked + .nav__menu {
+    -webkit-clip-path: circle(100% at center);
+            clip-path: circle(100% at center);
+  }
+  .carouselExampleControls {
+    z-index: 1;
+  }
+}
+/*# sourceMappingURL=style.css.map */
