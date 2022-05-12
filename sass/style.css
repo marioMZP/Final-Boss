@@ -18,6 +18,7 @@ footer {
 footer p {
   font-size: small;
   margin-left: 10px;
+  padding: 1%;
 }
 
 footer .iconos {
@@ -121,9 +122,7 @@ body {
   -webkit-box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
           box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
   width: 60%;
-  height: -webkit-max-content;
-  height: -moz-max-content;
-  height: max-content;
+  height: 100%;
   margin: 0 auto;
 }
 
@@ -137,7 +136,7 @@ body {
   height: auto;
   padding: 10px 10px;
   margin: 80px 70px;
-  text-align: left;
+  text-align: center;
 }
 
 .principal {
@@ -476,11 +475,12 @@ body {
 .grid-contenedor2 .item-grid2 {
   width: 100%;
   height: auto;
+  margin-bottom: 20px;
 }
 
 .grid-contenedor2 .item-grid2 iframe {
   width: 100%;
-  margin-bottom: 15px;
+  height: 343;
 }
 
 .grid-contenedor2 .item-grid2:nth-child(1) {
@@ -778,6 +778,7 @@ html {
 
 body {
   margin: 0;
+  pad: 0;
 }
 
 .bg {

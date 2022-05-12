@@ -78,9 +78,10 @@ body {
     .item-grid2 {
         width: 100%;
         height: auto;
+        margin-bottom: 20px;
         iframe {
             width: 100%;
-            margin-bottom: 15px;
+            height: 343;
         }
     }
     .item-grid2:nth-child(1) {
