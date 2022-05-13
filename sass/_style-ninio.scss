@@ -19,6 +19,7 @@ body {
 .principal__nm {
     display: flex;
     justify-content: space-between;
+    padding: 2%;
     width: 90%;
     height: max-content;
     margin: 0 auto;
@@ -27,6 +28,7 @@ body {
     width: 40%;
     height: max-content;
     margin-top: 50px;
+    margin-right: 20px;
     border-radius: 20% 40% / 20% 40%;
     border: 2px solid rgb(20, 20, 20);
     background: linear-gradient(#ff0000, #c733cc);
