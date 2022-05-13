@@ -992,6 +992,102 @@ body {
   }
 }
 
+@media (max-width: 1023px) {
+  .contenedor-grilla {
+    width: 90%;
+    height: auto;
+    margin: 40px auto 10px;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[6];
+        grid-template-columns: repeat(6, 1fr);
+    -ms-grid-rows: (1fr)[3];
+        grid-template-rows: repeat(3, 1fr);
+  }
+  .contenedor-grilla img {
+    width: 100%;
+    height: auto;
+  }
+  .contenedor-grilla img:hover {
+    -webkit-filter: grayscale(100%);
+            filter: grayscale(100%);
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+  .contenedor-grilla .item-grilla:nth-child(1) {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-column: 1/3;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+  }
+  .contenedor-grilla .item-grilla:nth-child(2) {
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 2;
+    grid-column: 3/5;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+  }
+  .contenedor-grilla .item-grilla:nth-child(3) {
+    -ms-grid-column: 5;
+    -ms-grid-column-span: 2;
+    grid-column: 5/7;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+  }
+  .contenedor-grilla .item-grilla:nth-child(4) {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 2;
+    grid-column: 2/4;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    grid-row: 2/3;
+  }
+  .contenedor-grilla .item-grilla:nth-child(5) {
+    -ms-grid-column: 4;
+    -ms-grid-column-span: 2;
+    grid-column: 4/6;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    grid-row: 2/3;
+  }
+  .video__responsive {
+    position: relative;
+    width: 70%;
+    height: 400px;
+    margin: 30px auto 30px;
+  }
+  .video__responsive iframe {
+    width: 100%;
+    height: 100%;
+  }
+  .segmento__troupe {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 90%;
+    height: auto;
+    margin: -100px auto 20px;
+    padding: 0;
+  }
+  .segmento__troupe .segmento__parrafo {
+    text-align: center;
+    font-size: medium;
+    margin: 0 auto;
+  }
+  .segmento__troupe img {
+    width: 100%;
+    height: auto;
+  }
+}
+
 html {
   height: 100%;
 }
