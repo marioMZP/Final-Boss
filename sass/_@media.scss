@@ -177,6 +177,7 @@
             height: auto;
             iframe {
                 width: 100%;
+                max-height: 343px;
                 margin-bottom: 15px;
             }
         }
@@ -264,4 +265,46 @@
         }
     }
 }
+
+//Tu-Proyecto//
+
+@media (max-width: 1023px) {
+    .grilla-container {
+        width: 90%;
+        height: auto;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(8, 1fr);
+        grid-template-rows: repeat(11, 1fr);
+        .item-grid-tp {
+            width: 100%;
+            height: auto;
+            img {
+                max-width: 100%;
+                max-height: auto;
+            }
+            img:hover {
+                transform: scale(1.2);
+                filter: grayscale(100%);
+            }
+        }
+        .item-grid-tp:nth-child(1) {
+            grid-column: 1/5;
+            grid-row: 1/6;
+        }
+        .item-grid-tp:nth-child(2) {
+            grid-column: 5/9;
+            grid-row: 2/7;
+        }
+        .item-grid-tp:nth-child(3) {
+            grid-column: 1/5;
+            grid-row: 6/11;
+        }
+        .item-grid-tp:nth-child(4) {
+            grid-column: 5/9;
+            grid-row: 7/12;
+        }
+    }
+}
+
 

@@ -80,8 +80,8 @@ body {
         height: auto;
         margin-bottom: 20px;
         iframe {
-            width: 100%;
-            height: 343;
+            max-width: 100%;
+            height: 343px;
         }
     }
     .item-grid2:nth-child(1) {
