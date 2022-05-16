@@ -704,9 +704,11 @@ body {
 
 body {
   font-family: 'Montserrat Alternates', sans-serif;
+  color: #0c0606;
 }
 
 .titulo__tu-proyecto {
+  font-size: xx-large;
   display: flexbox;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -717,6 +719,7 @@ body {
 }
 
 .titulo__tu-proyecto h1 {
+  color: black;
   text-align: center;
   border: 1px solid #181717;
   -webkit-box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
@@ -726,16 +729,21 @@ body {
 .bajada__tu-proyecto {
   width: 80%;
   height: auto;
-  margin: 0 auto 20px;
+  margin: 20px auto 10px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+          box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 .bajada__tu-proyecto h3 {
   text-align: center;
   text-decoration: underline;
+  margin-top: 10px;
+  padding-top: 10px;
 }
 
 .bajada__tu-proyecto p {
-  margin: 10px 10px 50px;
+  margin: 0 10px 50px;
+  padding: 2%;
 }
 
 .grilla-container {
@@ -808,18 +816,23 @@ body {
   height: auto;
   margin: 50px auto 50px;
   border: 2px solid #1d1d1d;
-  background: -webkit-gradient(linear, left top, left bottom, from(#44e01c), to(#cc33a6));
-  background: linear-gradient(#44e01c, #cc33a6);
+  background: -webkit-gradient(linear, left top, left bottom, from(#7adb62), to(#c75ead));
+  background: linear-gradient(#7adb62, #c75ead);
+  -webkit-box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+          box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 .segmento-troupe .titulo-troupe {
+  width: 75%;
   text-align: center;
-  text-decoration: underline;
-  margin-bottom: 15px;
+  border: 2px solid #202020;
+  margin: 20px auto;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+          box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 .segmento-troupe p {
-  margin-left: 5px;
+  text-align: center;
 }
 
 .segmento-troupe ul {
@@ -827,8 +840,30 @@ body {
 }
 
 .segmento-troupe li {
+  width: 90%;
+  height: auto;
   margin-left: 40px;
   margin-top: 5px;
+}
+
+.raya {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.mb-3 {
+  background: #c7e0c1;
+  width: 60%;
+  height: auto;
+  margin: 50px auto;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+          box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.mb-3 .enviar {
+  width: 100px;
+  float: right;
+  margin: 10px 20px;
 }
 
 @media (max-width: 767px) {
