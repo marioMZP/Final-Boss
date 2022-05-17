@@ -9,24 +9,23 @@ body {
 }
 
 .titulo__tu-proyecto {
-    font-size: xx-large;
-    display: flexbox;
-    align-items: center;
+
     width: 100%;
     height: auto;
-    margin: 20px auto 20px;
-    h1 {
-        color: black;
-        text-align: center;
-        border: 1px solid rgb(24, 23, 23);
-        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 
+    h1 {
+        font-size: xx-large;
+        text-align: center;
+        margin-top: 20px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        border: 2px solid rgb(36, 3, 36);
     }
 }
 .bajada__tu-proyecto {
     width: 80%;
     height: auto;
     margin: 20px auto 10px;
+    background: linear-gradient(#7adb62, #c75ead);
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 
     h3 {
@@ -78,7 +77,7 @@ body {
     }
 }
 
-.segmento-troupe {
+.segmento-tuProyecto {
     width: 70%;
     height: auto;
     margin: 50px auto 50px;
@@ -86,7 +85,7 @@ body {
     background: linear-gradient(#7adb62, #c75ead);
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 
-.titulo-troupe {
+.titulo-tuProyecto {
     width: 75%;
         text-align: center;
         border: 2px solid rgb(32, 32, 32);
@@ -104,8 +103,7 @@ body {
     li {
         width: 90%;
         height: auto;
-        margin-left: 40px;
-        margin-top: 5px;
+        margin: 15px 0 10px 5px;
     }
 }
 
@@ -113,16 +111,41 @@ body {
     width: 70%;
     margin: 0 auto;
 }
+.contacto {
+    width: 100%;
+    height: auto;
+    margin: 0 auto 20px;
+    text-align: center;
+    border: 2px solid rgb(20, 20, 20);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+
+}
 
 .mb-3 {
     background: #c7e0c1;
     width: 60%;
     height: auto;
-    margin: 50px auto;
+    margin: 10px auto ;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     .enviar {
         width: 100px;
         float: right;
         margin: 10px 20px;
+    }
+}
+.mb-5 {
+    background: #c7e0c1;
+    width: 60%;
+    height: auto;
+    margin: 10px auto ;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    .enviar {
+        width: 100px;
+        float: right;
+        margin: 10px 20px;
+    }
+    .form-control {
+        height: 150px;
     }
 }

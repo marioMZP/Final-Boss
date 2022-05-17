@@ -307,4 +307,19 @@
     }
 }
 
+@media (max-width: 767px) {
+    footer {
+        display: flex;
+        flex-direction: column;
+        .grilla-pie {
+            width: 90%;
+            height: auto;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            font-size: x-small;
+            margin: 15px 25px 0;
+        }
+    }
+}
 
