@@ -2,10 +2,7 @@
     margin: 0;
     padding: 0;
 }
-html {
-    width: 100%;
-    height: 100%;
-}
+
 body {
     font-family: 'Montserrat Alternates', sans-serif;
 }
@@ -21,6 +18,7 @@ body {
         border: 2px solid rgb(36, 3, 36);
     }
 }
+
 .principal__nm {
     display: flex;
     justify-content: space-between;
@@ -28,7 +26,8 @@ body {
     width: 90%;
     height: max-content;
     margin: 0 auto;
-    }
+}
+
 .bloque__nm {
     width: 40%;
     height: max-content;
@@ -44,12 +43,12 @@ body {
         margin-top: 45px;
         margin-right: 40px;
         text-decoration: underline;
-
-    }
+    }   
     p {
         text-align: center;
         margin: 20px auto 0;
-    }      
+    } 
+
 }
 .link__redes {
     display: flex;
@@ -122,7 +121,7 @@ body {
 }
 
 .subtitulo-grid {
-    width: 100%;
+    width: 99%;
     height: auto;
     text-align: center;
     border: 2px solid rgb(20, 20, 20);

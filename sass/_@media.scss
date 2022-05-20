@@ -102,7 +102,7 @@
         flex-direction: column;
         margin-top: 30px;
         .bloque__nm {
-            width: 80%;
+            width: 95%;
             height: auto;
             margin: 0 auto;
         }
@@ -345,8 +345,12 @@
     }
 }
 
+//Footer//
+
 @media (max-width: 767px) {
     footer {
+        width: 100%;
+        height: auto;
         display: flex;
         flex-direction: column;
         .grilla-pie {
@@ -361,7 +365,7 @@
         iframe {
             width: 70%;
             height: 70%;
-            margin: 5px auto 5px;
+            margin: 5px auto 20px;
         }
         .maps-iconos {
             display: flex;
@@ -369,7 +373,7 @@
             .iconos {
                 display: flex;
                 flex-direction: column;
-                margin-top: 10px;
+                margin-top: 25px;
                 margin-left: 10px;
                 img {
                     width: 30px;

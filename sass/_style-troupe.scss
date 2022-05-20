@@ -4,7 +4,7 @@
 }
 html {
     width: 100%;
-    height: 100%;
+    height: auto;
 }
 body {
     font-family: 'Montserrat Alternates', sans-serif;
@@ -25,11 +25,18 @@ body {
         text-align: center;
         text-decoration: underline;
         margin: 15px 0 15px;
+        a {
+            box-shadow: none;
+        }
+        img:hover {
+            transform: scale(1.2);
+        }
     }
-    .icono-w {
+    .icono-insta {
         width: 28px;
         height: auto;
         margin-left: 5px;
+
     }
 }
 
