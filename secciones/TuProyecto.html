@@ -80,19 +80,37 @@
       <div class="raya">
           <hr>
       </div>
-      
+       <div class="contacto" id="contacto">
+            <h4>Contacto</h4>
+       </div>
 
-      <div class="contacto">
-          <h3><b>Dejanos tu mensaje</b></h3>
-      </div>
-      <div class="mb-3" id="contacto">
-        <label for="exampleFormControlInput1" class="form-label">&nbsp;&nbsp;&nbsp; -Correo electrónico</label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="lvv-producciones@gmail.com">
-      </div>
-      <div class="mb-5">
-        <label for="exampleFormControlTextarea1" class="form-label">&nbsp;&nbsp;&nbsp; -Dejanos tu mensaje</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-        <input class="enviar" type="submit">
+      <div class="container" class="forulario">
+        <form class="row g-4">
+            <div class="col-6">
+                <label for="nameInput" class="form-label">Nombre</label>
+                <input type="name" class="form-control" id="nameInput">
+            </div>
+            
+            <div class="col-6">
+                <label for="emailInput" class="form-label">Email</label>
+                <input type="email" class="form-control" id="emailInput">
+            </div>
+
+            <div class="col-12" class="areaMensaje">
+                <label for="textareaInput" class="form-label">Dejanos tu mensaje</label>
+                <input type="textarea" class="form-control" id="textareaInput">
+            </div>
+
+            <div class="col-3 g-2">
+                <button type="submit" class="btn-secondary">Enviar</button>
+            </div>
+
+        </form>
+
+
+
+
+
       </div>
 
 

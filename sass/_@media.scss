@@ -361,11 +361,16 @@
             grid-template-rows: repeat(2, 1fr);
             font-size: x-small;
             margin: 15px 25px 0;
+            .item-pie {
+                display: flex;
+                align-items: center;
+                margin: 0 auto;
+            }
         }
         iframe {
             width: 70%;
             height: 70%;
-            margin: 5px auto 20px;
+            margin: 5px auto 40px;
         }
         .maps-iconos {
             display: flex;

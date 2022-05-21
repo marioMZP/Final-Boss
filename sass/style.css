@@ -50,6 +50,7 @@ footer .texto-pie {
 }
 
 footer .texto-pie p {
+  font-size: medium;
   margin: auto 0;
 }
 
@@ -1052,45 +1053,20 @@ body {
 .contacto {
   width: 100%;
   height: auto;
-  margin: 0 auto 20px;
+  margin: 0 auto;
+}
+
+.contacto h4 {
+  background: transparent;
   text-align: center;
-  border: 2px solid #141414;
   -webkit-box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
           box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
-.mb-3 {
-  background: #c7e0c1;
-  width: 60%;
+.container {
+  width: 80%;
   height: auto;
-  margin: 10px auto;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-          box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-}
-
-.mb-3 .enviar {
-  width: 100px;
-  float: right;
-  margin: 10px 20px;
-}
-
-.mb-5 {
-  background: #c7e0c1;
-  width: 60%;
-  height: auto;
-  margin: 10px auto;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-          box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-}
-
-.mb-5 .enviar {
-  width: 100px;
-  float: right;
-  margin: 10px 20px;
-}
-
-.mb-5 .form-control {
-  height: 150px;
+  margin-bottom: 30px;
 }
 
 @media (max-width: 767px) {
@@ -1628,10 +1604,19 @@ body {
     font-size: x-small;
     margin: 15px 25px 0;
   }
+  footer .grilla-pie .item-pie {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0 auto;
+  }
   footer iframe {
     width: 70%;
     height: 70%;
-    margin: 5px auto 20px;
+    margin: 5px auto 40px;
   }
   footer .maps-iconos {
     display: -webkit-box;
