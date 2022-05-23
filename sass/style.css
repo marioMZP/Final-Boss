@@ -376,7 +376,9 @@ body {
 
 .grid-img-container .img-item {
   width: 100%;
-  height: auto;
+  max-height: -webkit-max-content;
+  max-height: -moz-max-content;
+  max-height: max-content;
   border: 10px solid #300230;
 }
 

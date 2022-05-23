@@ -89,7 +89,7 @@ body {
     margin: 0px auto 40px;
     .img-item {
         width: 100%;
-        height: auto;
+        max-height: max-content;
         border: 10px solid rgb(48, 2, 48);
         img {
             width: 100%;
