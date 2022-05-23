@@ -834,6 +834,7 @@ body {
 .contenedor-grilla img {
   width: 100%;
   height: auto;
+  border: 10px solid #a54209;
 }
 
 .contenedor-grilla img:hover {
@@ -1226,7 +1227,7 @@ body {
   }
   .principal__nm .video__responsive {
     width: 90%;
-    height: auto;
+    height: 250px;
     margin: 25px auto 15px;
   }
   .principal__nm .grid-container {
